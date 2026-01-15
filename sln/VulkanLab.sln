@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VkCore", "..\VkCore\VkCore.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloVulkan", "..\samples\HelloVulkan\HelloVulkan.vcxproj", "{3131B813-B02B-4D61-B03D-574C27E67FA1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedExample", "..\samples\AdvancedExample\AdvancedExample.vcxproj", "{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,6 +45,14 @@ Global
 		{3131B813-B02B-4D61-B03D-574C27E67FA1}.Release|x64.Build.0 = Release|x64
 		{3131B813-B02B-4D61-B03D-574C27E67FA1}.Release|x86.ActiveCfg = Release|Win32
 		{3131B813-B02B-4D61-B03D-574C27E67FA1}.Release|x86.Build.0 = Release|Win32
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}.Debug|x64.ActiveCfg = Debug|x64
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}.Debug|x64.Build.0 = Debug|x64
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}.Debug|x86.Build.0 = Debug|Win32
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}.Release|x64.ActiveCfg = Release|x64
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}.Release|x64.Build.0 = Release|x64
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}.Release|x86.ActiveCfg = Release|Win32
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +60,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{32929D2E-929D-41B9-BC14-E0DC68A8E4C2} = {47C1ABF9-FCCD-403A-8DDE-659B95474214}
 		{3131B813-B02B-4D61-B03D-574C27E67FA1} = {47C1ABF9-FCCD-403A-8DDE-659B95474214}
+		{A8F2E9C1-B5D4-4E7F-9A2B-8C6D5F4E3B1A} = {47C1ABF9-FCCD-403A-8DDE-659B95474214}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D19AB458-0D9E-4379-B10F-7F503A93CE25}
